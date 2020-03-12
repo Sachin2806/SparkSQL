@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/scala"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/akka-actor_2.10-2.2.3-shaded-protobuf.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/akka-remote_2.10-2.2.3-shaded-protobuf.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/akka-slf4j_2.10-2.2.3-shaded-protobuf.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/asm-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/asm-commons-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/asm-tree-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/avro-1.7.4.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/avro-ipc-1.7.4.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/chill_2.10-0.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/chill-java-0.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/colt-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-beanutils-core-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-compress-1.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-el-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-math-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/commons-net-1.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/compress-lzf-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/concurrent-1.3.4.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/config-1.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/fastutil-6.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/hadoop-client-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/hadoop-core-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/hsqldb-1.8.0.10.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jackson-annotations-2.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jackson-core-2.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jackson-core-asl-1.8.8.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jackson-databind-2.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jackson-mapper-asl-1.8.8.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/javax.servlet-2.5.0.v201103041518.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jets3t-0.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jetty-6.1.26.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jetty-continuation-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jetty-http-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jetty-io-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jetty-server-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jetty-util-6.1.26.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jetty-util-7.6.8.v20121106.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jline-0.9.94.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/kryo-2.21.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/lift-json_2.10-2.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/mesos-0.13.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/metrics-core-3.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/metrics-graphite-3.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/metrics-json-3.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/metrics-jvm-3.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/minlog-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/netty-3.6.6.Final.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/netty-all-4.0.13.Final.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/objenesis-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/paranamer-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/protobuf-java-2.4.1-shaded.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/reflectasm-1.07-shaded.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/scala-library-2.10.3.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/servlet-api-2.5-20081211.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/slf4j-log4j12-1.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/snappy-java-1.0.5.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/spark-core_2.10-0.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/stream-2.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/uncommons-maths-1.2.2a.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/velocity-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/xmlenc-0.52.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/xz-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/zookeeper-3.4.5.jar"/>
+	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/hadoop-common-2.6.0-cdh5.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CSC/Downloads/hadoop-client-2.6.0-cdh5.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CSC/Downloads/hadoop-common-2.6.0-cdh5.15.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
