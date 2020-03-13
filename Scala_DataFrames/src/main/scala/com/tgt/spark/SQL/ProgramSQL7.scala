@@ -6,7 +6,7 @@ import org.apache.spark.sql._
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SQLImplicits
 
-object ProgramSQL3 {
+object ProgramSQL7 {
   
   case class Employee(empno:String, ename:String, designation:String, manager:String, 
                       hire_date:String, sal:String, deptno:String)

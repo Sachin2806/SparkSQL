@@ -22,11 +22,24 @@ object ProgramSQL6 {
   
    val columns = Seq("language","users_count")
    val data = Seq(("Java", "20000"), ("Python", "100000"), ("Scala", "3000"))
-   
    val rdd = spark.sparkContext.parallelize(data)
-   rdd.toDF().show()
    
-
+    val data1 = Array(1, 2, 3, 4, 5)
+    val rdd1 = sc.parallelize(data1)
+    
+   //Creating Data Frames Using toDF() functions
+   val dfFromRDD1 = columns.toDF()
+   val dfFromRDD2 = data.toDF("language","users_count")
+   val dataFrame = rdd.toDF()
+   
+   dataFrame.show()
+   
+   dfFromRDD1.show()
+   dfFromRDD2.show()
+   
+   //Using Spark createDataFrame() from SparkSession
+   val dfFromRDD3 = spark.createDataFrame(data).toDF(columns:_*)
+   dfFromRDD3.show()
   }
   
 }
