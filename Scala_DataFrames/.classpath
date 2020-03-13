@@ -105,5 +105,8 @@
 	<classpathentry kind="lib" path="D:/CCA_175/2.10.6 Jars/hadoop-common-2.6.0-cdh5.15.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/CSC/Downloads/hadoop-client-2.6.0-cdh5.15.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/CSC/Downloads/hadoop-common-2.6.0-cdh5.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CSC/Downloads/spark-core_2.11-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CSC/Downloads/spark-core_2.11-1.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CSC/Downloads/spark-sql_2.10-1.6.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
