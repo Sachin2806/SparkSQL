@@ -33,7 +33,13 @@
     	<artifactId>spark-csv_2.10</artifactId>
     	<version>1.4.0</version>
 	</dependency>
-
+	
+	<dependency>
+    	<groupId>org.zalando</groupId>
+    	<artifactId>spark-json-schema_2.10</artifactId>
+    	<version>0.4</version>
+	</dependency>
+	
 	<dependency>
         <groupId>org.scala-lang</groupId>
         <artifactId>scala-library</artifactId>
