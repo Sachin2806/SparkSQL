@@ -22,19 +22,46 @@ object ProgramSQL7 {
    import spark.implicits._
   
    // Create a DataFrame from reading a CSV file
-   val dfFile = spark
+     val dfFile = spark
                .read
+               .option("header","true")
                .format("com.databricks.spark.csv")
                .option("inferSchema", "true")
-               .option("header","true")
                .load("C:/Users/CSC/git/SparkSQL/Scala_DataFrames/Files/question_tags_10K.csv")
                .toDF("id", "tag")
                
-   //val dfs = sqlcontext.read.json("C:/Users/CSC/workspace/Scala_DataFrames/Files/employee.json")
-               
-   dfFile.show(10)
+     dfFile.show(10)
+     //To show the dataframe schema 
+     dfFile.printSchema()
+     
+     //select columns from a dataframe
+     dfFile.select("id", "tag").show(10)
    
-   
+     //filter by column value of a dataframe
+     dfFile.filter("id == 4").show()
+     
+     //Count rows of a dataframe
+     println("No of IDs with 4 : " + dfFile.filter("id == 4").count())
+     
+     //SQL "like" query - Single Filter
+     dfFile.filter("tag like 'd%'").show()
+     
+     //SQL "like" query - Multiple Filter
+     dfFile.filter("tag like 'c%'").filter(" id == 4 or id == 6 ").show()
+     
+     //SQL "IN" clause
+     dfFile.filter("id IN(1,4)").show()
+     
+     //SQL Group By
+     println("Group by tag value")
+     dfFile.groupBy("tag").count().show()
+     
+     //SQL Group By with filter
+     dfFile.groupBy("tag").count().filter(" count == 1")show()
+     
+     //SQL order By with filter
+     dfFile.groupBy("tag").count().filter(" count == 1").orderBy("tag")show()
+     
   }
   
 }
