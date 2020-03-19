@@ -40,6 +40,11 @@ object ProgramSQL6 {
    //Using Spark createDataFrame() from SparkSession
    val dfFromRDD3 = spark.createDataFrame(data).toDF(columns:_*)
    dfFromRDD3.show()
+   
+   val values = List(1,2,3,4,5)
+   val df = values.toDF()
+   df.show()
+   
   }
   
 }
