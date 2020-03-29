@@ -26,20 +26,27 @@ object ProgramSQL2 {
     import spark.implicits._
     
   
-  val baby_names = spark
-                   .read
-                   .format("com.databricks.spark.csv")
-                   .option("header", "true")
-                   .option("inferSchema", "true")
-                   .load("C:/Users/CSC/git/SparkSQL/Scala_DataFrames/Files/Baby_Names__Beginning_2007.csv")
+    val baby_names = spark.read
+                          .format("com.databricks.spark.csv")
+                          .option("header", "true")
+                          .option("inferSchema", "true")
+                          .load("C:/Users/CSC/git/SparkSQL/Scala_DataFrames/Files/Baby_Names__Beginning_2007.csv")
   
-  baby_names.take(5).foreach(println)
-  val baby_names_Table = baby_names.registerTempTable("names")
-  val distinctYears = spark.sql("select distinct Year from names")
-  distinctYears.collect.foreach(println)
-  baby_names.printSchema
-  val popular_names = spark.sql("select distinct(`First Name`), count(County) as cnt from names group by `First Name` order by cnt desc LIMIT 10")
-  
+    //Register temp table from dataframe
+    val baby_names_Table = baby_names.registerTempTable("names")
+    
+    //List all tables in Spark's catalog
+    spark.catalog.listTables().show()
+    
+    //List catalog tables using Spark SQL
+    spark.sql("show tables").show()
+   
+    val distinctYears = spark.sql("select distinct Year from names")
+    distinctYears.collect.foreach(println)
+    
+    baby_names.printSchema
+    val popular_names = spark.sql("select distinct(`First Name`), count(County) as cnt from names group by `First Name` order by cnt desc LIMIT 10")
+    popular_names.collect.foreach(println)
   
   }
 }

@@ -32,8 +32,7 @@
     	<groupId>com.databricks</groupId>
     	<artifactId>spark-csv_2.10</artifactId>
     	<version>1.4.0</version>
-	</dependency>
-	
+	</dependency>	
 	
 	<dependency>
   	  <groupId>org.zalando</groupId>
