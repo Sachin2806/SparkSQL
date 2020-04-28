@@ -9,7 +9,7 @@ import org.apache.spark.sql._
 object ProgramSQL2 {
   
   def main(args: Array[String]){
-    
+      
    val conf = new SparkConf()
                   .setAppName("ProgramJson2")
                   .setMaster("local")   

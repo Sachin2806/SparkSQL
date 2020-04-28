@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.tgt.spark.SQL</groupId>
-  <artifactId>DataFrames</artifactId>
+  <artifactId>Spark_SQL_DataFrames</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
