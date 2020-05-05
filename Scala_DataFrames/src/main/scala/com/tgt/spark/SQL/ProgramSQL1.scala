@@ -15,6 +15,7 @@ object ProgramSQL1 {
    val conf = new SparkConf()
                   .setAppName("ProgramJson2")
                   .setMaster("local")
+                  
     val spark = SparkSession
                .builder()
                .appName("ProgramJson2")
